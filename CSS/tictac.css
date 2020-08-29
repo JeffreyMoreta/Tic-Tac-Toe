@@ -1,0 +1,58 @@
+/*
+Created by House Hayden
+Anastasia Yim,
+Jeffrey Moreta,
+Kadeisha Reid,
+Kathy Lee,
+Rebecca Candelario
+*/
+
+body{
+  font-family: sans-serif;
+  font-weight: bold;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: #708D81;
+  background-color: #001427;
+}
+
+header{
+  margin-right: 2rem;
+}
+
+#message{
+    font-size: 1.5rem;
+}
+
+.gameContain{
+  display: grid;
+  justify-items: center;
+  grid-gap: .5rem;
+  background-color: #001427; /* This is the background color for all the spaces in between the boxes, the grid */
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.square{
+  color: black;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background-color: white;  /* This is the background color for all the boxes */
+  transition: all .3s;
+}
+
+.gameChangeSquare{
+    color: #BF0603;
+    font-size: 3rem;
+    transform: scale(1.06);
+}
+
+.gameChangeContain{
+    box-shadow: 0 0 50px 5px #8D0801;
+}
